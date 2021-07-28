@@ -1,0 +1,18 @@
+{
+    "Profile": "Business",
+    "Starting point": "Milan",
+    "Destination": "Dublin",
+    "Departure time": "2021-06-13 21:49",
+    "Arrival time": "2021-06-15 08:53",
+    "Via": [
+        "Berlin",
+        "Frankfurt"
+    ],
+    "Services": [
+        "Local type",
+        "Telecabin"
+    ],
+    "Walking speed": "Slow",
+    "Cycling speed": "Fast",
+    "Driving speed": "Fast"
+}
