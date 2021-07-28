@@ -1,0 +1,37 @@
+Travel Offer ID,Legs Number,Profile,Starting point,Destination,Via,Departure time,Arrival time,Services,Transfers,Transfer duration,Walking distance to stop,Walking speed,Cycling distance to stop,Cycling speed,Driving speed
+202106140032130,1,Business,Milan,Dublin,"['Berlin', 'Frankfurt']",2021-06-13 21:49,2021-06-15 08:53,"['Local type', 'Telecabin']",Max 3,At least 20 min,2000m,Slow,9000m,Fast,Fast
+202106140032131,1,Business,Milan,Dublin,"['Berlin', 'Frankfurt']",2021-06-13 21:49,2021-06-15 08:53,"['Local type', 'Telecabin']",Unlimited,At least 35 min,500m,Slow,18000m,Fast,Fast
+202106140032132,8,Business,Milan,Dublin,"['Berlin', 'Frankfurt']",2021-06-13 21:49,2021-06-15 08:53,"['Local type', 'Telecabin']",Max 4,At least 15 min,500m,Slow,16000m,Fast,Fast
+202106140032133,2,Business,Milan,Dublin,"['Berlin', 'Frankfurt']",2021-06-13 21:49,2021-06-15 08:53,"['Local type', 'Telecabin']",Max 2,At least 35 min,4500m,Slow,3000m,Fast,Fast
+202106140032134,4,Business,Milan,Dublin,"['Berlin', 'Frankfurt']",2021-06-13 21:49,2021-06-15 08:53,"['Local type', 'Telecabin']",Max 3,At least 30 min,3500m,Slow,7000m,Fast,Fast
+202106140032135,8,Business,Milan,Dublin,"['Berlin', 'Frankfurt']",2021-06-13 21:49,2021-06-15 08:53,"['Local type', 'Telecabin']",Max 3,At least 25 min,4500m,Slow,15000m,Fast,Fast
+202106140032136,9,Business,Milan,Dublin,"['Berlin', 'Frankfurt']",2021-06-13 21:49,2021-06-15 08:53,"['Local type', 'Telecabin']",Unlimited,At least 15 min,4500m,Slow,16500m,Fast,Fast
+202106140032137,1,Business,Milan,Dublin,"['Berlin', 'Frankfurt']",2021-06-13 21:49,2021-06-15 08:53,"['Local type', 'Telecabin']",Max 1,At least 45 min,4500m,Slow,15000m,Fast,Fast
+202106140032138,8,Business,Milan,Dublin,"['Berlin', 'Frankfurt']",2021-06-13 21:49,2021-06-15 08:53,"['Local type', 'Telecabin']",Unlimited,At least 15 min,1000m,Slow,8000m,Fast,Fast
+202106140032139,7,Business,Milan,Dublin,"['Berlin', 'Frankfurt']",2021-06-13 21:49,2021-06-15 08:53,"['Local type', 'Telecabin']",Max 1,At least 35 min,2000m,Slow,6000m,Fast,Fast
+2021061400321310,9,Business,Milan,Dublin,"['Berlin', 'Frankfurt']",2021-06-13 21:49,2021-06-15 08:53,"['Local type', 'Telecabin']",Max 4,At least 30 min,3000m,Slow,5500m,Fast,Fast
+2021061400321311,5,Business,Milan,Dublin,"['Berlin', 'Frankfurt']",2021-06-13 21:49,2021-06-15 08:53,"['Local type', 'Telecabin']",Max 4,normal,3500m,Slow,19500m,Fast,Fast
+2021061400321312,2,Business,Milan,Dublin,"['Berlin', 'Frankfurt']",2021-06-13 21:49,2021-06-15 08:53,"['Local type', 'Telecabin']",Max 2,normal,1000m,Slow,16500m,Fast,Fast
+2021061400321313,9,Business,Milan,Dublin,"['Berlin', 'Frankfurt']",2021-06-13 21:49,2021-06-15 08:53,"['Local type', 'Telecabin']",Max 3,normal,2000m,Slow,11000m,Fast,Fast
+2021061400321314,4,Business,Milan,Dublin,"['Berlin', 'Frankfurt']",2021-06-13 21:49,2021-06-15 08:53,"['Local type', 'Telecabin']",Unlimited,At least 15 min,1000m,Slow,18500m,Fast,Fast
+2021061400321315,3,Business,Milan,Dublin,"['Berlin', 'Frankfurt']",2021-06-13 21:49,2021-06-15 08:53,"['Local type', 'Telecabin']",Max 1,At least 35 min,1500m,Slow,7000m,Fast,Fast
+2021061400321316,10,Business,Milan,Dublin,"['Berlin', 'Frankfurt']",2021-06-13 21:49,2021-06-15 08:53,"['Local type', 'Telecabin']",Max 2,At least 15 min,1500m,Slow,10500m,Fast,Fast
+2021061400321317,5,Business,Milan,Dublin,"['Berlin', 'Frankfurt']",2021-06-13 21:49,2021-06-15 08:53,"['Local type', 'Telecabin']",None,At least 45 min,3500m,Slow,19000m,Fast,Fast
+2021061400321318,6,Business,Milan,Dublin,"['Berlin', 'Frankfurt']",2021-06-13 21:49,2021-06-15 08:53,"['Local type', 'Telecabin']",Max 2,normal,500m,Slow,10000m,Fast,Fast
+2021061400321319,6,Business,Milan,Dublin,"['Berlin', 'Frankfurt']",2021-06-13 21:49,2021-06-15 08:53,"['Local type', 'Telecabin']",None,At least 20 min,1000m,Slow,5500m,Fast,Fast
+2021061400321320,8,Business,Milan,Dublin,"['Berlin', 'Frankfurt']",2021-06-13 21:49,2021-06-15 08:53,"['Local type', 'Telecabin']",Unlimited,At least 15 min,500m,Slow,14500m,Fast,Fast
+2021061400321321,10,Business,Milan,Dublin,"['Berlin', 'Frankfurt']",2021-06-13 21:49,2021-06-15 08:53,"['Local type', 'Telecabin']",Max 1,At least 10 min,1000m,Slow,5000m,Fast,Fast
+2021061400321322,6,Business,Milan,Dublin,"['Berlin', 'Frankfurt']",2021-06-13 21:49,2021-06-15 08:53,"['Local type', 'Telecabin']",Max 3,At least 30 min,500m,Slow,16000m,Fast,Fast
+2021061400321323,10,Business,Milan,Dublin,"['Berlin', 'Frankfurt']",2021-06-13 21:49,2021-06-15 08:53,"['Local type', 'Telecabin']",None,At least 30 min,2500m,Slow,14500m,Fast,Fast
+2021061400321324,7,Business,Milan,Dublin,"['Berlin', 'Frankfurt']",2021-06-13 21:49,2021-06-15 08:53,"['Local type', 'Telecabin']",Max 1,At least 30 min,3500m,Slow,6000m,Fast,Fast
+2021061400321325,9,Business,Milan,Dublin,"['Berlin', 'Frankfurt']",2021-06-13 21:49,2021-06-15 08:53,"['Local type', 'Telecabin']",Unlimited,At least 35 min,3000m,Slow,18000m,Fast,Fast
+2021061400321326,1,Business,Milan,Dublin,"['Berlin', 'Frankfurt']",2021-06-13 21:49,2021-06-15 08:53,"['Local type', 'Telecabin']",Unlimited,At least 10 min,1000m,Slow,19500m,Fast,Fast
+2021061400321327,4,Business,Milan,Dublin,"['Berlin', 'Frankfurt']",2021-06-13 21:49,2021-06-15 08:53,"['Local type', 'Telecabin']",None,At least 20 min,3500m,Slow,16000m,Fast,Fast
+2021061400321328,3,Business,Milan,Dublin,"['Berlin', 'Frankfurt']",2021-06-13 21:49,2021-06-15 08:53,"['Local type', 'Telecabin']",Max 2,At least 10 min,1500m,Slow,8500m,Fast,Fast
+2021061400321329,3,Business,Milan,Dublin,"['Berlin', 'Frankfurt']",2021-06-13 21:49,2021-06-15 08:53,"['Local type', 'Telecabin']",Max 4,At least 20 min,2500m,Slow,18000m,Fast,Fast
+2021061400321330,10,Business,Milan,Dublin,"['Berlin', 'Frankfurt']",2021-06-13 21:49,2021-06-15 08:53,"['Local type', 'Telecabin']",Max 3,At least 25 min,3000m,Slow,8500m,Fast,Fast
+2021061400321331,8,Business,Milan,Dublin,"['Berlin', 'Frankfurt']",2021-06-13 21:49,2021-06-15 08:53,"['Local type', 'Telecabin']",Max 1,At least 40 min,4500m,Slow,17000m,Fast,Fast
+2021061400321332,7,Business,Milan,Dublin,"['Berlin', 'Frankfurt']",2021-06-13 21:49,2021-06-15 08:53,"['Local type', 'Telecabin']",Max 1,At least 35 min,2000m,Slow,4000m,Fast,Fast
+2021061400321333,9,Business,Milan,Dublin,"['Berlin', 'Frankfurt']",2021-06-13 21:49,2021-06-15 08:53,"['Local type', 'Telecabin']",Max 2,At least 15 min,2500m,Slow,15500m,Fast,Fast
+2021061400321334,5,Business,Milan,Dublin,"['Berlin', 'Frankfurt']",2021-06-13 21:49,2021-06-15 08:53,"['Local type', 'Telecabin']",Max 3,At least 45 min,2000m,Slow,7000m,Fast,Fast
+2021061400321335,10,Business,Milan,Dublin,"['Berlin', 'Frankfurt']",2021-06-13 21:49,2021-06-15 08:53,"['Local type', 'Telecabin']",None,At least 20 min,3500m,Slow,8000m,Fast,Fast
