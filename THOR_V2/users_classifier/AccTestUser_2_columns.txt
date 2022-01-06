@@ -1,0 +1,155 @@
+Quick
+Reliable
+Cheap
+Comfortable
+Door-to-door
+Environmentally friendly
+Short
+Multitasking
+Social
+Panoramic
+Healthy
+Legs Number
+Walking distance to stop
+Profile_Leisure
+Profile_Basic
+Profile_Family
+Class_First Class
+Class_Economy
+Seat_Window
+Seat_Large
+Transfers_Max 2
+Transfers_Max 1
+Transfers_Max 4
+Transfers_Unlimited
+Transfers_None
+Transfers_Max 3
+Transfer duration_At least 30 min
+Transfer duration_At least 25 min
+Transfer duration_At least 20 min
+Transfer duration_At least 35 min
+Transfer duration_At least 40 min
+Transfer duration_normal
+Transfer duration_At least 10 min
+Transfer duration_At least 45 min
+Transfer duration_At least 15 min
+Walking speed_Medium
+Walking speed_Slow
+Starting point_Barcelona
+Starting point_Paris
+Starting point_Porto
+Starting point_Praha
+Starting point_Berlin
+Starting point_Krumlov
+Starting point_Dublin
+Starting point_Kraków
+Starting point_Milan
+Starting point_Lisbon
+Starting point_Frankfurt
+Starting point_Brugge
+Starting point_Crok
+Starting point_London
+Starting point_Oxford
+Starting point_Bruxelle
+Starting point_Rome
+Starting point_Warsaw
+Destination_Barcelona
+Destination_Paris
+Destination_Porto
+Destination_Praha
+Destination_Berlin
+Destination_Krumlov
+Destination_Dublin
+Destination_Kraków
+Destination_Warsaw
+Destination_Lisbon
+Destination_Frankfurt
+Destination_Milan
+Destination_Brugge
+Destination_Nice
+Destination_Crok
+Destination_London
+Destination_Madrid
+Destination_Bruxelle
+Destination_Rome
+Destination_Oxford
+Loyalty Card_FlyingBlue
+PRM Type_Person with deafness or auditory impairments
+PRM Type_Persons with blind or visual impairments
+Preferred means of transportation_Park
+Preferred means of transportation_Bus
+Preferred means of transportation_Coach
+Preferred means of transportation_Cable Way
+Preferred means of transportation_Airline
+Preferred means of transportation_Train
+Preferred means of transportation_Funicular
+Preferred means of transportation_Bike Sharing
+Preferred means of transportation_Ship
+Preferred means of transportation_Car Sharing
+Preferred means of transportation_Intercity
+Preferred means of transportation_Metro
+Preferred means of transportation_Toll
+Preferred means of transportation_Taxi
+Preferred means of transportation_Other
+Preferred means of transportation_Urban
+LegMode_Park
+LegMode_Bus
+LegMode_Coach
+LegMode_Tram
+LegMode_Cable Way
+LegMode_Airline
+LegMode_Trolely Bus
+LegMode_Train
+LegMode_Funicular
+LegMode_Bike Sharing
+LegMode_Ship
+LegMode_Intercity
+LegMode_Metro
+LegMode_Car Sharing
+LegMode_Toll
+LegMode_Taxi
+LegMode_Other
+LegMode_Urban
+LegCarrier_VBB
+LegCarrier_Trenitalia
+LegCarrier_TMB
+LegCarrier_KLM
+LegCarrier_Renfe
+LegCarrier_FlixBus
+LegCarrier_RegioJet
+LegCarrier_SNFC
+LegCarrier_AirFrance
+LegCarrier_Iberia
+LegSeat_Aisle
+LegSeat_Window
+LegSeat_Large
+Services_Highspeed Train
+Services_Underground
+Services_Bus
+Services_Coach
+Services_DRT
+Services_Suburban
+Services_Local rail
+Services_Telecabin
+Services_Air
+Services_Water transport
+Services_Local type
+Services_Miscellaneous
+Via_Barcelona
+Via_Praha
+Via_Porto
+Via_Paris
+Via_Berlin
+Via_Krumlov
+Via_Dublin
+Via_Kraków
+Via_Warsaw
+Via_Frankfurt
+Via_Brugge
+Via_Nice
+Via_Crok
+Via_London
+Via_Madrid
+Via_Bruxelle
+Via_Rome
+Via_Oxford

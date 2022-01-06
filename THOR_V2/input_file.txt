@@ -1,0 +1,26 @@
+[columns]
+users_columns = Travel Offer ID, User ID ,TimeStamp, Date Of Birth, city, country, Loyalty Card, Payment Card, PRM Type, Preferred means of transportation, Preferred carrier, Class, Seat, Refund Type, Quick, Reliable, Cheap, Comfortable, Door-to-door, Environmentally friendly, Short, Multitasking, Social, Panoramic, Healthy, Legs Number, Profile, Starting point, Destination, Via, LegMode, LegCarrier, LegSeat, LegLength, Departure time, Arrival time, Services, Transfers, Transfer duration, Walking distance to stop, Walking speed, Cycling distance to stop, Cycling speed, Driving speed, Bought Tag
+one_hot_categorical_columns = Profile, city, country, Class, Seat, Refund Type, Transfers, Transfer duration, Walking speed, Starting point, Destination
+one_hot_categorical_list_columns = Payment Card, Loyalty Card, PRM Type, Preferred means of transportation, LegMode, LegCarrier, LegSeat, Services, Via
+classifier_columns = Quick, Reliable, Cheap, Comfortable, Door-to-door, Environmentally friendly, Short, Multitasking, Social, Panoramic, Healthy, Legs Number, Walking distance to stop, Walking speed, Cycling distance to stop, Cycling speed, Driving speed, Bought Tag
+clustering_columns = Date Of Birth, Profile, city, country,	Loyalty Card, Payment Card, PRM Type, Preferred means of transportation, Class, Seat
+target_column = Bought Tag
+
+
+[path]
+user_profile=users_profile
+users_classifier=users_classifier
+clusters_path=clusters
+
+
+[task]
+users_for_classification = AccTestUser_0, AccTestUser_1, AccTestUser_2
+clustering = ALL
+cluster_new_user = AccTestUser_11, AccTestUser_12
+rank_travel_offers = AccTestUser_0, travel_offers/travel_offer_1.csv, travel_offers/travel_offer_2.csv, travel_offers/travel_offer_3.csv
+selected_task = 1
+# selected_task can be 1, 2, 3, or 4. (one at each time)
+# 1: make a classifier for every user selected in users_for_classification
+# 2: cluster all the users exist in user profile folder
+# 3: find a cluster for one or more new users indicated in cluster_new_user and assign appropriate classifier to it
+# 4: rank travel offers, for a given user, both are given in rank_travel_offers

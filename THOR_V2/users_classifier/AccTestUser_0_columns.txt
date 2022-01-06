@@ -1,0 +1,151 @@
+Quick
+Reliable
+Cheap
+Comfortable
+Door-to-door
+Environmentally friendly
+Short
+Multitasking
+Social
+Panoramic
+Healthy
+Legs Number
+Walking distance to stop
+Profile_Business
+Profile_Leisure
+Profile_Basic
+Profile_Family
+Refund Type_Manual refund
+Refund Type_Automatic refund
+Transfers_Max 2
+Transfers_Max 1
+Transfers_Unlimited
+Transfers_Max 4
+Transfers_None
+Transfers_Max 3
+Transfer duration_At least 30 min
+Transfer duration_At least 25 min
+Transfer duration_At least 20 min
+Transfer duration_At least 35 min
+Transfer duration_At least 40 min
+Transfer duration_normal
+Transfer duration_At least 45 min
+Transfer duration_At least 15 min
+Walking speed_Fast
+Walking speed_Medium
+Walking speed_Slow
+Starting point_Barcelona
+Starting point_Praha
+Starting point_Porto
+Starting point_Berlin
+Starting point_Krumlov
+Starting point_Dublin
+Starting point_Kraków
+Starting point_Lisbon
+Starting point_Frankfurt
+Starting point_Milan
+Starting point_Brugge
+Starting point_Nice
+Starting point_Crok
+Starting point_London
+Starting point_Madrid
+Starting point_Bruxelle
+Starting point_Rome
+Starting point_Warsaw
+Destination_Barcelona
+Destination_Praha
+Destination_Paris
+Destination_Porto
+Destination_Berlin
+Destination_Krumlov
+Destination_Dublin
+Destination_Kraków
+Destination_Lisbon
+Destination_Milan
+Destination_Frankfurt
+Destination_Brugge
+Destination_Nice
+Destination_London
+Destination_Madrid
+Destination_Oxford
+Destination_Bruxelle
+Destination_Rome
+Destination_Warsaw
+Payment Card_Paypal
+Payment Card_Visa
+Payment Card_Mastercard
+Loyalty Card_Cartafreccia
+Loyalty Card_FlyingBlue
+Preferred means of transportation_Park
+Preferred means of transportation_Bus
+Preferred means of transportation_Coach
+Preferred means of transportation_Tram
+Preferred means of transportation_Cable Way
+Preferred means of transportation_Trolely Bus
+Preferred means of transportation_Train
+Preferred means of transportation_Funicular
+Preferred means of transportation_Intercity
+Preferred means of transportation_Metro
+Preferred means of transportation_Bike Sharing
+Preferred means of transportation_Car Sharing
+Preferred means of transportation_Toll
+Preferred means of transportation_Other
+Preferred means of transportation_Urban
+LegMode_Park
+LegMode_Tram
+LegMode_Coach
+LegMode_Cable Way
+LegMode_Bus
+LegMode_Airline
+LegMode_Trolely Bus
+LegMode_Train
+LegMode_Funicular
+LegMode_Metro
+LegMode_Bike Sharing
+LegMode_Ship
+LegMode_Intercity
+LegMode_Car Sharing
+LegMode_Toll
+LegMode_Taxi
+LegMode_Other
+LegMode_Urban
+LegCarrier_VBB
+LegCarrier_Trenitalia
+LegCarrier_KLM
+LegCarrier_TMB
+LegCarrier_Renfe
+LegCarrier_RegioJet
+LegCarrier_FlixBus
+LegCarrier_SNFC
+LegCarrier_AirFrance
+LegCarrier_Iberia
+LegSeat_Window
+LegSeat_Aisle
+LegSeat_Large
+Services_Highspeed Train
+Services_Underground
+Services_Bus
+Services_Coach
+Services_Tram
+Services_DRT
+Services_Suburban
+Services_Local rail
+Services_Telecabin
+Services_Local type
+Services_Miscellaneous
+Via_Barcelona
+Via_Paris
+Via_Porto
+Via_Berlin
+Via_Krumlov
+Via_Dublin
+Via_Kraków
+Via_Warsaw
+Via_Milan
+Via_Frankfurt
+Via_Brugge
+Via_Nice
+Via_London
+Via_Madrid
+Via_Bruxelle
+Via_Oxford

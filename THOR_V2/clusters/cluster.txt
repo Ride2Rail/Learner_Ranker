@@ -1,0 +1,62 @@
+Date Of Birth
+Profile_Business
+Profile_Leisure
+Profile_Basic
+Profile_Family
+city_Barcelona
+city_Porto
+city_Berlin
+city_Krumlov
+city_Dublin
+city_Kraków
+city_Frankfurt
+city_Brugge
+city_Rome
+city_Warsaw
+country_Ireland
+country_Belgium
+country_Poland
+country_Germany
+country_Italy
+country_Czechia
+country_Portugal
+country_Spain
+Class_Business
+Class_First Class
+Class_Economy
+Seat_Aisle
+Seat_Window
+Seat_Large
+Payment Card_Paypal
+Payment Card_Visa
+Payment Card_Mastercard
+Loyalty Card_FlyingBlue
+Loyalty Card_Grand Voyageur
+Loyalty Card_Cartafreccia
+Loyalty Card_Golden Card
+PRM Type_Wheelchair users in specific seat named h-seat
+PRM Type_Persons porting a carrycots
+PRM Type_Pregnant woman
+PRM Type_Older person
+Preferred means of transportation_Tram
+Preferred means of transportation_Park
+Preferred means of transportation_Coach
+Preferred means of transportation_Bus
+Preferred means of transportation_Cable Way
+Preferred means of transportation_Airline
+Preferred means of transportation_Trolely Bus
+Preferred means of transportation_Train
+Preferred means of transportation_Funicular
+Preferred means of transportation_Metro
+Preferred means of transportation_Ship
+Preferred means of transportation_Intercity
+Preferred means of transportation_Car Sharing
+Preferred means of transportation_Bike Sharing
+Preferred means of transportation_Toll
+Preferred means of transportation_Taxi
+Preferred means of transportation_Other
+Preferred means of transportation_Urban
+LegMode_Intercity
+LegSeat_Window
+LegSeat_Aisle
+LegSeat_Large
