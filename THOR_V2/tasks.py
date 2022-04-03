@@ -121,7 +121,8 @@ def new_user_cluster_pred(new_users_clustering, clusters_path, users_columns, cl
 
 # task 4
 def sort_offers(user_for_rank, travel_offers, users_classifier_path, one_hot_col_cat, one_hot_col_cat_list, classifier_columns):
-    scores = []
+    buying_prob = []
+    not_buying_prob = []
     classifier_model = pickle.load(open(os.path.join(users_classifier_path, user_for_rank + '_classifier.pkl'), 'rb'))
     with open(os.path.join(users_classifier_path, user_for_rank + '_columns.txt'), 'r') as f:
         classifier_model_col = [i.split('\n')[0] for i in f.readlines()]
@@ -135,8 +136,9 @@ def sort_offers(user_for_rank, travel_offers, users_classifier_path, one_hot_col
 
         columns_n = list(classifier_df.columns.values)
         classifier_np = classifier_df.values
-        min_max_scaler = preprocessing.MinMaxScaler()
-        classifier_np_scaled = min_max_scaler.fit_transform(classifier_np)
+        # min_max_scaler = preprocessing.MinMaxScaler()
+        # classifier_np_scaled = min_max_scaler.fit_transform(classifier_np)
+        classifier_np_scaled = classifier_np
         classifier_df = pd.DataFrame(data=classifier_np_scaled, columns=columns_n, index=range(len(classifier_df)))
 
         common_cols = list(set(classifier_df.columns.values).intersection(set(classifier_model_col)))
@@ -148,12 +150,21 @@ def sort_offers(user_for_rank, travel_offers, users_classifier_path, one_hot_col
             classifier_df2.loc[offer_id, uncommon_cols] = 0
 
         pred = classifier_model.predict(classifier_df2)
-        class_sco = classifier_model.score(classifier_df2, pred)
-        scores.append(class_sco)
 
-    zipped_lists = zip(scores, travel_offers)
-    sorted_zipped_lists = sorted(zipped_lists, reverse=True)
-    sorted_travel_offers = [element for _, element in sorted_zipped_lists]
+        class_prob = classifier_model.predict_proba(classifier_df2)
+        if pred == 1:
+            buying_prob.append([offer, class_prob[0, 1]])
+        else:
+            not_buying_prob.append([offer, class_prob[0, 0]])
+
+    buying_prob = sorted(buying_prob, key=lambda x: x[1], reverse=True)
+    not_buying_prob = sorted(not_buying_prob, key=lambda x: x[1])
+
+    sorted_offers_scores = buying_prob + not_buying_prob
+    # print(sorted_offers_scores)
+    sorted_travel_offers = [i[0] for i in sorted_offers_scores]
+
     with open(os.path.join(os.path.dirname(travel_offers[0]), 'sorted_offers.txt'), 'w') as f:
         for to in sorted_travel_offers:
+            print(to)
             f.write(to+'\n')
