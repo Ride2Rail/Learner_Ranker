@@ -29,7 +29,7 @@ def classifiers_grid_search(classifier_df2, users_classifier_path, user_id, targ
     features = classifier_df2.drop(target_col, axis=1)
 
     x_train, x_test, y_train, y_test = train_test_split(features, target, train_size=0.8, random_state=2021)
-    svm_parameters = {'kernel': ('linear', 'poly', 'rbf'), 'C': [1, 10]}
+    svm_parameters = {'kernel': ('linear', 'poly', 'rbf'), 'C': [1, 10], 'probability': [True]}
     dt_parameters = {'criterion': ['entropy'], 'max_depth': [5, 7, 10], 'min_samples_leaf': [1, 2, 4],
                      'max_features': [1, 5, 10, 20, 30, 40], 'max_leaf_nodes': [2, 5, 10]}
     lr_parameters = {'penalty': ['l1', 'l2', 'elasticnet', 'none'],
@@ -41,7 +41,7 @@ def classifiers_grid_search(classifier_df2, users_classifier_path, user_id, targ
     knn_parameters = {'n_neighbors': [1, 3, 5, 10], 'weights': ['uniform', 'distance'], 'p': range(1, 6)}
 
     print('gridsearch - svc')
-    svc = SVC()
+    svc = SVC(probability=True)
     clf = GridSearchCV(svc, svm_parameters, cv=5)
     clf.fit(x_train, y_train)
     best_svc = SVC(**clf.best_params_).fit(x_train, y_train)
